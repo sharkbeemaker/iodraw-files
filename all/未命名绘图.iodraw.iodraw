@@ -28,8 +28,8 @@
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-6" value="NDOB观测器计算扰动" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IC5U0rdvJR6aPFAdUuB4-8" value="阻抗控制器计算" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-8" value="阻抗控制器更新计算期望扭矩" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
