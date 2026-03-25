@@ -52,6 +52,9 @@
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-18" value="力矩信号输出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="450" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-20" value="控制线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
