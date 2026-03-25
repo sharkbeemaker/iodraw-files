@@ -79,8 +79,14 @@
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-28" value="发送电机数据给控制线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="470" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IC5U0rdvJR6aPFAdUuB4-30" target="IC5U0rdvJR6aPFAdUuB4-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-30" value="发送电机数据给上位机" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="555" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-32" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
