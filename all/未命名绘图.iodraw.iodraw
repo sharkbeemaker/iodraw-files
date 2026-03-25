@@ -34,11 +34,11 @@
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IC5U0rdvJR6aPFAdUuB4-11" target="IC5U0rdvJR6aPFAdUuB4-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IC5U0rdvJR6aPFAdUuB4-11" value="更新期望末端位置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="524.5" width="120" height="60" as="geometry" />
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-11" value="多项式插值更新期望末端位置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-13" value="逆运动学计算期望关节角度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
