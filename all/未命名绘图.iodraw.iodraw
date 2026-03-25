@@ -22,14 +22,11 @@
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-4" value="数据滤波" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IC5U0rdvJR6aPFAdUuB4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IC5U0rdvJR6aPFAdUuB4-6" target="IC5U0rdvJR6aPFAdUuB4-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-6" value="NDOB观测器计算扰动" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-8" value="阻抗控制器更新计算期望扭矩" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
