@@ -13,7 +13,7 @@
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IC5U0rdvJR6aPFAdUuB4-2" target="IC5U0rdvJR6aPFAdUuB4-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IC5U0rdvJR6aPFAdUuB4-2" value="接收来自电机和PC的信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-2" value="更新自电机的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
