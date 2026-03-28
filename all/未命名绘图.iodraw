@@ -82,8 +82,14 @@
         <mxCell id="IC5U0rdvJR6aPFAdUuB4-30" value="发送电机数据给上位机" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="550" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0e8O_hhZHUgCuB7lnpDW-1" target="0e8O_hhZHUgCuB7lnpDW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0e8O_hhZHUgCuB7lnpDW-1" value="调试流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-2" value="关闭输出，调节底层软件接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
