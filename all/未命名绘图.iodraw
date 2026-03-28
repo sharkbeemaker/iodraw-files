@@ -148,7 +148,10 @@
         <mxCell id="0e8O_hhZHUgCuB7lnpDW-28" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1300" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0e8O_hhZHUgCuB7lnpDW-30" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0e8O_hhZHUgCuB7lnpDW-30" target="0e8O_hhZHUgCuB7lnpDW-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-30" value="观测器调试" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1460" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
