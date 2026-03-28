@@ -139,7 +139,7 @@
         <mxCell id="0e8O_hhZHUgCuB7lnpDW-22" value="启动控制输出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1140" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0e8O_hhZHUgCuB7lnpDW-24" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-24" value="PID替换成阻抗控制器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1300" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0e8O_hhZHUgCuB7lnpDW-26" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
