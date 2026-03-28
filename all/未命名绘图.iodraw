@@ -104,7 +104,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0e8O_hhZHUgCuB7lnpDW-6" value="调节机器人PID参数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="1140" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0e8O_hhZHUgCuB7lnpDW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0e8O_hhZHUgCuB7lnpDW-8" target="0e8O_hhZHUgCuB7lnpDW-2">
           <mxGeometry relative="1" as="geometry" />
@@ -113,7 +113,10 @@
           <mxGeometry x="1140" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0e8O_hhZHUgCuB7lnpDW-12" value="扰动观测数据检查" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="1310" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0e8O_hhZHUgCuB7lnpDW-16" target="0e8O_hhZHUgCuB7lnpDW-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0e8O_hhZHUgCuB7lnpDW-16" value="运动学正逆解验证" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1140" y="420" width="120" height="60" as="geometry" />
