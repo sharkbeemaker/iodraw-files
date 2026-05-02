@@ -246,8 +246,11 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--41" value="输出扭矩" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="840" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--44" value="机械臂力学逆模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1060" width="120" height="60" as="geometry" />
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--44" target="7uyIL_BHpGvaZ6_AvNT--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--44" value="机械臂力学模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
