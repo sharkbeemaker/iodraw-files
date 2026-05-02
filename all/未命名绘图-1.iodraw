@@ -179,10 +179,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--17" value="机械臂力学模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--18" value="关节速度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--20" value="关节扭矩" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
