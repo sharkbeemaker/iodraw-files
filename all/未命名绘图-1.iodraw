@@ -157,13 +157,13 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--1" target="7uyIL_BHpGvaZ6_AvNT--8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--1" value="期望位置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--1" value="期望末端位置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--2" target="7uyIL_BHpGvaZ6_AvNT--8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--2" value="期望速度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--2" value="期望末端速度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--3" target="7uyIL_BHpGvaZ6_AvNT--8">
