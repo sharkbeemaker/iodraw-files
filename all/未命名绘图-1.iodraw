@@ -175,20 +175,17 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--4" value="轨迹生成器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="840" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--17" target="7uyIL_BHpGvaZ6_AvNT--18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--17" value="机械臂力学模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--18" value="关节角度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--20" value="关节速度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1110" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--21" value="关节扭矩" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1200" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
