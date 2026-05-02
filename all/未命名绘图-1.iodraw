@@ -187,6 +187,9 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--20" value="关节速度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--21" value="关节扭矩" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
