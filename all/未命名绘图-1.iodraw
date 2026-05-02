@@ -238,21 +238,14 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--35" value="阻抗/PD控制器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="840" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--41">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1080" y="970" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1080" y="935" />
-              <mxPoint x="1060" y="935" />
-              <mxPoint x="1060" y="970" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--41" target="7uyIL_BHpGvaZ6_AvNT--44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--41" value="输出扭矩" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="840" width="120" height="60" as="geometry" />
+          <mxGeometry x="980" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--44" value="机械臂力学模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="1050" width="120" height="60" as="geometry" />
+          <mxGeometry x="980" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
