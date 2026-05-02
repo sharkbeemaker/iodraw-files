@@ -217,14 +217,13 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--29" value="预估扰动" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--31" target="7uyIL_BHpGvaZ6_AvNT--33">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="1050" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--31" value="低通滤波" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="1090" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--33" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="810" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
