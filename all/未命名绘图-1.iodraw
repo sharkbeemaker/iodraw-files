@@ -224,13 +224,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--29" value="预估扰动" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="1090" width="120" height="60" as="geometry" />
+          <mxGeometry x="820" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--31" target="7uyIL_BHpGvaZ6_AvNT--35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--31" value="低通滤波" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="820" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--35" value="阻抗/PD控制器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="840" width="120" height="60" as="geometry" />
+          <mxGeometry x="820" y="840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
