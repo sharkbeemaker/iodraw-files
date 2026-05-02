@@ -214,18 +214,11 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--21" value="关节扭矩" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--25">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="1080.0285714285715" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--25" target="7uyIL_BHpGvaZ6_AvNT--31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--25" value="DOB观测器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="1050" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7uyIL_BHpGvaZ6_AvNT--31">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="880" y="1050" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--31" target="7uyIL_BHpGvaZ6_AvNT--35">
           <mxGeometry relative="1" as="geometry" />
@@ -246,7 +239,7 @@
           <mxGeometry x="980" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--44" value="机械臂力学模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="1050" width="120" height="60" as="geometry" />
+          <mxGeometry x="980" y="950" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
