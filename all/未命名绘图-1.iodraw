@@ -185,7 +185,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--17" value="机械臂力学模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1090" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--18" target="7uyIL_BHpGvaZ6_AvNT--25">
           <mxGeometry relative="1" as="geometry" />
@@ -220,7 +220,7 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--31" value="低通滤波" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--35" value="DOB观测器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--35" value="阻抗/PD控制器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="860" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
