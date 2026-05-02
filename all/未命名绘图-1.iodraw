@@ -1,0 +1,163 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="6--c-Qz2Q59C_vIo8pYs">
+    <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-1" value="控制线程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-2" target="IC5U0rdvJR6aPFAdUuB4-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-2" value="更新自电机的数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-4" target="IC5U0rdvJR6aPFAdUuB4-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-4" value="数据滤波" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-6" target="IC5U0rdvJR6aPFAdUuB4-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-6" value="NDOB观测器计算扰动" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-8" target="IC5U0rdvJR6aPFAdUuB4-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-8" value="阻抗控制器更新计算期望扭矩" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-11" target="IC5U0rdvJR6aPFAdUuB4-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-11" value="多项式插值更新期望末端位置" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-13" target="IC5U0rdvJR6aPFAdUuB4-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-13" value="逆运动学计算期望关节角度" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-16" target="IC5U0rdvJR6aPFAdUuB4-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-16" value="输出限幅" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-18" value="力矩信号输出" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-20" value="通信线程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-21" target="IC5U0rdvJR6aPFAdUuB4-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-21" value="FDCAN数据解析" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="560" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-23" target="IC5U0rdvJR6aPFAdUuB4-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-23" value="消息内存池" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-25" target="IC5U0rdvJR6aPFAdUuB4-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-25" value="上位机数据解析" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="760" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IC5U0rdvJR6aPFAdUuB4-28" target="IC5U0rdvJR6aPFAdUuB4-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-28" value="发送电机数据给控制线程" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IC5U0rdvJR6aPFAdUuB4-30" value="发送电机数据给上位机" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-1" target="0e8O_hhZHUgCuB7lnpDW-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-1" value="调试流程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-2" target="0e8O_hhZHUgCuB7lnpDW-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-2" value="关闭信号输出" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-4" target="0e8O_hhZHUgCuB7lnpDW-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-4" value="调节通信链路" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-6" target="0e8O_hhZHUgCuB7lnpDW-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-6" target="0e8O_hhZHUgCuB7lnpDW-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-6" value="调节机器人PID参数" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-8" target="0e8O_hhZHUgCuB7lnpDW-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-8" value="检查硬件" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-12" target="0e8O_hhZHUgCuB7lnpDW-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-12" value="扰动观测数据检查" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-16" target="0e8O_hhZHUgCuB7lnpDW-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-16" target="0e8O_hhZHUgCuB7lnpDW-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-16" value="运动学正逆解验证" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-20" target="0e8O_hhZHUgCuB7lnpDW-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-20" value="阻抗控制器预调试" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-22" value="启动控制输出" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-24" target="0e8O_hhZHUgCuB7lnpDW-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-24" value="PID替换成阻抗控制器" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-28" value="整体调试" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0e8O_hhZHUgCuB7lnpDW-30" target="0e8O_hhZHUgCuB7lnpDW-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e8O_hhZHUgCuB7lnpDW-30" value="观测器调试" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
