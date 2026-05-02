@@ -175,8 +175,14 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--4" value="轨迹生成器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="840" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--17" target="7uyIL_BHpGvaZ6_AvNT--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--17" value="机械臂力学模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--18" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
