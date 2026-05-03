@@ -255,7 +255,7 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--52" value="上电" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--53" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--53" value="中断向量表初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-90" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
