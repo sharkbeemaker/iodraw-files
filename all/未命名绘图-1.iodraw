@@ -283,13 +283,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--61" value="电机驱动初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-160" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--63" target="7uyIL_BHpGvaZ6_AvNT--65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--63" value="log系统初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="-160" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--65" target="7uyIL_BHpGvaZ6_AvNT--72">
           <mxGeometry relative="1" as="geometry" />
@@ -301,7 +301,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--68" value="机械臂参数初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="-160" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--72" value="启动调度器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-130" y="460" width="120" height="60" as="geometry" />
