@@ -253,37 +253,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--52" value="上电" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--53" target="7uyIL_BHpGvaZ6_AvNT--55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--53" value="中断向量表初始化，RCC初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--55" target="7uyIL_BHpGvaZ6_AvNT--57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--55" value="HAL_Init()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--57" target="7uyIL_BHpGvaZ6_AvNT--59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--57" value="基本外设初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--59" target="7uyIL_BHpGvaZ6_AvNT--61">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7uyIL_BHpGvaZ6_AvNT--62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--59" value="用户驱动初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--61" target="7uyIL_BHpGvaZ6_AvNT--63">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-340" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--61" value="电机驱动初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="-130" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--63" target="7uyIL_BHpGvaZ6_AvNT--65">
           <mxGeometry relative="1" as="geometry" />
