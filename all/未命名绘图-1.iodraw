@@ -273,11 +273,6 @@
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--57" value="基本外设初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-340" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uyIL_BHpGvaZ6_AvNT--62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7uyIL_BHpGvaZ6_AvNT--59">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-280" y="540" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--59" value="用户驱动初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-340" y="460" width="120" height="60" as="geometry" />
         </mxCell>
@@ -288,10 +283,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--63" value="线程初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="-140" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uyIL_BHpGvaZ6_AvNT--65" value="启动调度器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="-140" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
